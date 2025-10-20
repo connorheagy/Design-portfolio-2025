@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor - Software Designer & Developer</title>
+    <link rel="icon" type="image/x-icon" href="./styles/assets/Ellipse 36.png">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<!-- <div class="fixed-bottom"></div> -->
+<body>
+
+    <div class="container">
+      
+        <header>
+            <nav>
+                <a class="resume_link" href="./styles/assets/Connor Heagy Resume (Fall 2025).pdf" target="_blank">Resume</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+
+        <!-- <div class="headshot-container">
+            <img class="headshot" src="./styles/assets/headshot.jpg" alt="Headshot">
+        </div> -->
+        <button id="scrollTopBtn" title="Go to top">↑</button>
+        <main>
+            <div class="circle-container">
+                <div class="circle red"></div>
+                <div class="circle green"></div>
+                <div class="circle blue"></div>
+            </div>
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        Hi, I'm Connor. Welcome to<br>
+                        my collection of 
+                        <span class="word-carousel">
+                            <span class="word">designs.</span>
+                            <span class="word">ambitions.</span>
+                            <span class="word">projects.</span>
+                            <span class="word">thoughts.</span>
+                            <span class="word">prototypes.</span>
+                        </span>
+                        <div class="subheader">
+                                Software designer and developer. Senior @ Grinnell College, pursing a BA Computer Science and Studio Art. 
+                                Creating intuitive and engaging digital experiences through innovative design and robust coding.
+                        </div>
+                    </div> 
+                    <div class="buttons">
+                        <a href="#" class="btn1 btn-secondary" onclick="copyEmail()">Contact me</a>
+                        <script>
+                            function copyEmail() {
+                            const email = "connorheagy@gmail.com";
+                            navigator.clipboard.writeText(email)
+                                .then(() => {
+                                alert("Email copied to clipboard!");
+                                })
+                                .catch(err => {
+                                console.error("Failed to copy email: ", err);
+                                });
+                            }
+                        </script>
+                        <a href="https://www.linkedin.com/in/connor-heagy-636790229/" target="_blank" rel="noopener" class="btn btn-primary"><img class="navIcons" src="./styles/assets/linkedin (1).png" alt="LinkedIn-Copy"></a>
+                        <a href="https://github.com/connorheagy" target="_blank" rel="noopener" class="btn btn-primary"><img class="navIcons"src="./styles/assets/github (1).png" alt="Github"></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="widget-gallery-wrapper">
+        <div class="widget-1">
+            <a href="velox.html">
+                <div class="widget widget-content">
+                    <div class="zoom-container">
+                        <img class="widget1-img" src="./styles/assets/offical_home.png" alt="velox">
+                        <img class="widget1-img" src="./styles/assets/1.png" alt="startpage">
+                        <img class="widget1-img" src="./styles/assets/4.png" alt="sign-up page">
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <div class="tag">Velox</div> 
+                    <div class="tag">Research</div> 
+                    <div class="tag">Full-Stack</div>
+                </div>
+            </a>
+        </div>
+        <div class="widget-1">
+            <a href="echo.html" class="widget-1">
+                <div class="widget widget-content2">
+                    <div class="zoom-container">
+                        <img class="widget1-img" src="./styles/assets/Group 21.png" alt="echo">
+                        <img class="widget1-img" src="./styles/assets/profile''.png" alt="startpage">
+                        <img class="widget1-img" src="./styles/assets/Group 22.png" alt="sign-up page">
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <div class="tag">Echo</div> 
+                    <div class="tag">UI/UX</div> 
+                    <div class="tag">Full-Stack</div>
+                    <div class="tag">Music</div>
+                </div>
+            </a>  
+        </div>
+        <div class="widget-1">
+            <a href="widgets.html" class="widget-1">
+                <div class="widget widget-content3">
+                    <div class="zoom-container">
+                        <img class="widget2-img" src="./styles/assets/widgets.png " alt="echo">
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <div class="tag">Widgets</div> 
+                    <div class="tag">UI/UX</div> 
+                    <div class="tag">Design</div>
+                    <div class="tag">Functionality</div>
+                </div>
+            </a>  
+        </div>
+        <div class="widget-1">
+            <a href="archive.html" class="widget-1">
+                <div class="widget widget-content4">
+                    <div class="zoom-container">
+                        Archive.
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <div class="tag">Fine Arts</div> 
+                    <div class="tag">Aesthetics</div>
+                    <div class="tag">Typography</div>
+                    <div class="tag">Side Projects</div>
+                </div>
+            </a> 
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
