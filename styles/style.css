@@ -245,19 +245,19 @@ body {
 }
 
 .container2-1 {
-  justify-self: center;
+  margin: 0 auto;
   /* outline: orangered solid 1px; */
 }
 
 .velox-img-container {
   display: flex;
-  justify-self: center;
+  margin: 0 auto;
   justify-content: center;
 }
 
 .velox-paragraph {
   font-size: clamp(0.9375rem, 3vw, 1.125rem);
-  justify-self: center;
+  margin: 0 auto;
   text-align: left;
   color: rgb(26, 26, 26);
   font-family: "Lekton-Regular", sans-serif;
@@ -379,7 +379,7 @@ body {
 
 .echo-subheader {
   text-align: center;
-  justify-self: center;
+  margin: 0 auto;
   font-family: "Lekton-Regular", sans-serif;
   font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.5;
@@ -426,7 +426,7 @@ body {
   color: rgb(0, 0, 0);
   font-family: "Lekton-Regular", sans-serif;
   justify-content: center;
-  justify-self: center;
+  margin: 0 auto;
   width: clamp(300px, 50vw, 650px);
   margin-top: clamp(2rem, 10vh, 4rem);
 }
@@ -454,7 +454,7 @@ display: flex;
 
 .echo-spread {
   margin-top: clamp(1.875rem, 10vh, 4.375rem);
-  justify-self: center;
+  margin: 0 auto;
 }
 
 .echo-spread-img {
@@ -645,7 +645,7 @@ nav.sticky {
 }
 
 .velox-subheader {
-  justify-self: center;
+  margin: 0 auto;
   font-family: "Lekton-Regular", sans-serif;
   font-size: clamp(1rem, 3vw, 1.125rem);
   line-height: 1.5;
@@ -664,7 +664,7 @@ nav.sticky {
 
 .velox-spread {
   margin-top: clamp(1.25rem, 3vh, 1.25rem);
-  justify-self: center;
+  margin: 0 auto;
 }
 
 .project-header {
@@ -682,7 +682,7 @@ nav.sticky {
 .process-text {
   margin-top: clamp(1.875rem, 6vh, 3.125rem);
   justify-content: center;
-  justify-self: center;
+  margin: 0 auto;
   width: clamp(18.75rem, 90vw, 40.625rem);
   max-width: 100%;
 }
@@ -814,13 +814,13 @@ nav.sticky {
   width: clamp(5rem, 15vw, 6.25rem);
   max-width: 100%;
   height: auto;
-  justify-self: center;
+  margin: 0 auto;
 }
 
 .project-breakdown {
   margin-top: clamp(3rem, 10vh, 5rem);
   justify-content: center;
-  justify-self: center;
+  margin: 0 auto;
   width: clamp(18.75rem, 90vw, 40.625rem);
   max-width: 100%;
   padding: 0 clamp(1rem, 3vw, 0);
@@ -829,7 +829,7 @@ nav.sticky {
 .breakdown-text {
   margin-top: clamp(1.875rem, 6vh, 3.125rem);
   justify-content: center;
-  justify-self: center;
+  margin: 0 auto;
   width: clamp(18.75rem, 90vw, 40.625rem);
   max-width: 100%;
   padding: 0 clamp(1rem, 3vw, 0);
@@ -1287,7 +1287,7 @@ nav a:hover {
   margin-top: clamp(1rem, 2.5vh, 1.5rem);
   display: flex;
   width: clamp(20rem, 60vw, 31.25rem); /* ~320–500px */
-  justify-self: center;
+  margin: 0 auto;
   gap: clamp(0.1rem, 2vw, 1rem); /* ~8–16px */
 }
 
@@ -1337,7 +1337,7 @@ nav a:hover {
 }
 
 .widget-gallery {
-  justify-self: center;
+  margin: 0 auto;
   display: flex;
   font-family: "Lekton-Regular", sans-serif;
   width: clamp(18rem, 75vw, 70rem);
