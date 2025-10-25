@@ -66,27 +66,6 @@ body {
   margin-bottom: clamp(3rem, 8vh, 8rem);
 }
 
-.grainy-background {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  background-image: url('./assets/grainy.svg');
-  opacity: 0.15;
-  z-index: 2;
-}
-
-.box {
-  height: clamp(20%, 35vh, 35%);
-  width: 100%;
-  position: absolute;
-  top: 0;
-  background-color: rgb(255, 255, 255, 0.01);
-  -webkit-backdrop-filter: blur(clamp(1.875rem, 6vw, 2.8125rem));
-  backdrop-filter: blur(clamp(1.875rem, 6vw, 2.8125rem));
-  z-index: 3;
-}
-
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -321,12 +300,11 @@ body {
 }
 
 .container {
-  /* outline: black solid 1px; */
   margin: 0 auto;
   background-size: repeat; 
   text-align: center;
-  height: 80vh;
 }
+
 
 .container5 {
   /* outline: black solid 1px; */
@@ -956,7 +934,6 @@ nav a:hover {
 /* Main Content */
 .hero {
   display: flex;
-  height: 40vh;
   position: relative;
   justify-content: center;
 }
@@ -977,7 +954,6 @@ nav a:hover {
 
 .hero-content {
   padding-top: clamp(2rem, 6vh, 3.125rem);
-  justify-content: center;
 }
 
 .subheader {
@@ -1004,18 +980,6 @@ nav a:hover {
   position: relative;
   width: 100%;
   height: fit-content;
-}
-
-.blur-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.01);
-  -webkit-backdrop-filter: blur(clamp(6.25rem, 15vw, 12.5rem));
-  backdrop-filter: blur(clamp(6.25rem, 15vw, 6.25rem));
-  z-index: 10;
 }
 
 .circle {
@@ -1138,10 +1102,6 @@ nav a:hover {
 @media (max-width: 480px) {
   .hero {
     min-height: 40vh;
-  }
-
-  .hero-content {
-    padding-top: 1.5rem;
   }
 
   .circle-container {
@@ -1357,6 +1317,14 @@ nav a:hover {
 .widget-gallery-wrapper {
   width: 60%;
   margin: 0 auto;
+  margin-top: clamp(2rem, 8vh, 4rem); /* ~32–64px */
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 4vh, 3rem); /* consistent spacing between divs */
+
 }
 
 .widget-1 {
