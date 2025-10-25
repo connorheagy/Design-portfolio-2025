@@ -974,7 +974,7 @@ nav a:hover {
 }
 
 .circle-container {
-  justify-self: center;
+  margin: 0 auto;
   position: relative;
   width: clamp(4rem, 12vw, 5.5rem);
   height: clamp(2rem, 6vw, 2.75rem);
