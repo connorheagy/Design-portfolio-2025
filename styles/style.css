@@ -257,7 +257,7 @@ body {
 
 .velox-paragraph {
   font-size: clamp(0.9375rem, 3vw, 1.125rem);
-  margin: 0 auto;
+  justify-self: center;
   text-align: left;
   color: rgb(26, 26, 26);
   font-family: "Lekton-Regular", sans-serif;
@@ -453,8 +453,8 @@ display: flex;
 }
 
 .echo-spread {
-  margin-top: clamp(1.875rem, 10vh, 4.375rem);
   margin: 0 auto;
+  margin-top: clamp(1.875rem, 10vh, 4.375rem);
 }
 
 .echo-spread-img {
@@ -663,8 +663,8 @@ nav.sticky {
 }
 
 .velox-spread {
-  margin-top: clamp(1.25rem, 3vh, 1.25rem);
   margin: 0 auto;
+  margin-top: clamp(1.25rem, 3vh, 1.25rem);
 }
 
 .project-header {
@@ -680,9 +680,9 @@ nav.sticky {
 }
 
 .process-text {
+  justify-self: center;
   margin-top: clamp(1.875rem, 6vh, 3.125rem);
   justify-content: center;
-  margin: 0 auto;
   width: clamp(18.75rem, 90vw, 40.625rem);
   max-width: 100%;
 }
@@ -818,18 +818,18 @@ nav.sticky {
 }
 
 .project-breakdown {
+  margin: 0 auto;
   margin-top: clamp(3rem, 10vh, 5rem);
   justify-content: center;
-  margin: 0 auto;
   width: clamp(18.75rem, 90vw, 40.625rem);
   max-width: 100%;
   padding: 0 clamp(1rem, 3vw, 0);
 }
 
 .breakdown-text {
+  margin: 0 auto;
   margin-top: clamp(1.875rem, 6vh, 3.125rem);
   justify-content: center;
-  margin: 0 auto;
   width: clamp(18.75rem, 90vw, 40.625rem);
   max-width: 100%;
   padding: 0 clamp(1rem, 3vw, 0);
@@ -1284,10 +1284,10 @@ nav a:hover {
 }
 
 .about-me-flexbox2 {
+  margin: 0 auto;
   margin-top: clamp(1rem, 2.5vh, 1.5rem);
   display: flex;
   width: clamp(20rem, 60vw, 31.25rem); /* ~320–500px */
-  margin: 0 auto;
   gap: clamp(0.1rem, 2vw, 1rem); /* ~8–16px */
 }
 
